@@ -4,6 +4,21 @@
 
 <img src="https://raw.githubusercontent.com/lvlrSajjad/react-native-blur-overlay/master/giphy.gif" width="250">   <img src="https://raw.githubusercontent.com/lvlrSajjad/react-native-blur-overlay/master/Untitled.jpg" width="250">  <img src="https://raw.githubusercontent.com/lvlrSajjad/react-native-blur-overlay/master/Untitled2.jpg" width="250">
 
+## Fork Changes
+
+```
+Modified component behavior to control component visibility from props rather than exported methods, 
+now you can use several Blur Overlays on the screen at the same time. And you can adjust some component styles.
+
+Removed: showOverlay, hideOverlay
+Added props: isVisible, isAnimated
+
+isVisible - boolean, shows or hides component by changing opacity
+isAnimated - boolean, adds fade animation when showing/hiding component, duration is 500 miliseconds
+
+For other information go to the original project or read down below.
+
+```
 
 ## Getting started
 
